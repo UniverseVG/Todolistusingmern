@@ -9,13 +9,13 @@ import github from '../../../logos/GitHub_Logo.png';
 const footer = props => (
   <Container fluid>
     <Row className="footer-row">
-      <Col className="footer-credits">Created with ❤ by Atharv Kulkarni</Col>
+      <Col className="footer-credits">Created with ❤ by GM Varun</Col>
       <Col>
         <Row className="justify-content-md-end">
           <a
             href="/"
             onClick={() =>
-              window.open('https://twitter.com/realj4ke', '_blank')
+              window.open('https://twitter.com/GMVarun2', '_blank')
             }
           >
             <img className="socialLogo" src={twitter} alt="twitter" />
@@ -24,7 +24,7 @@ const footer = props => (
           <a
             href="/"
             onClick={() =>
-              window.open('https://github.com/kulkarniatharv', '_blank')
+              window.open('https://github.com/UniverseVG', '_blank')
             }
           >
             <img className="socialLogo" src={github} alt="github" />
